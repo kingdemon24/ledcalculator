@@ -9,6 +9,7 @@ root.iconbitmap("calculator.ico")
 e=Entry(root,width=60,borderwidth=10,relief=GROOVE,background="white")
 e.grid( row=0,column=0,columnspan=4,padx=10,pady=10)
 
+# defining buttons
 def button_click(number):
     current=e.get()
     e.delete(0,END)
